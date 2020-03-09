@@ -20,7 +20,7 @@ class GLCanvas extends Component {
     uiViewClassName: "GLCanvas"
   };
 
-  componentWillMount () {
+  UNSAFE_componentWillMount () {
     this._pendingCaptureFrame = {};
   }
 
